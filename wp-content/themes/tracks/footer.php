@@ -17,7 +17,11 @@
 	get_template_part( 'sidebar', 'footer' );
 	?>
 	<div class="design-credit">
-		<p>
+		<marquee behaviour=”scroll” direction=”left” SCROLLDELAY=2 SCROLLAMOUNT=4 MAX-WIDTH 1340 HEIGHT=30 style=”color:#00cc66”><p>Where do you love to eat? Where do you love to eat?</p></marquee>
+
+
+
+		<!--<p>
 			<?php
 			$footer_text = get_theme_mod( 'ct_tracks_footer_text_setting' );
 			if ( empty( $footer_text ) ) {
@@ -25,7 +29,7 @@
 			}
 			echo wp_kses_post( $footer_text );
 			?>
-		</p>
+		</p>-->
 	</div>
 </footer>
 
