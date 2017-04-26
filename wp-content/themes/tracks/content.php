@@ -22,6 +22,6 @@
 			<?php get_template_part( 'content/category-links' ); ?>
 			<?php get_template_part( 'content/tag-links' ); ?>
 		</div>
-		<?php get_template_part( 'content/author-meta' ); ?>
+		<!--<?php get_template_part( 'content/author-meta' ); ?>-->
 	</div>
 </div>

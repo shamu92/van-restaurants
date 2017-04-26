@@ -10,11 +10,11 @@ if ( $post_date != 'hide' ) { ?>
 	?></span><?php
 }
 if ( $post_date != 'hide' && ( $post_author != 'hide' || $post_category != 'hide' ) ) { ?>
-	<span> / </span><?php
+	<?php
 }
-if ( $post_author != 'hide' ) { ?>
+/*if ( $post_author != 'hide' ) { ?>
 	<span class="author"><?php the_author_posts_link(); ?></span><?php
-}
+}*/
 if ( $post_author != 'hide' && $post_category != 'hide' && has_term( '', 'category' ) ) { ?>
 	<span> / </span><?php
 }
