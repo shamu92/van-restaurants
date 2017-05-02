@@ -7,7 +7,6 @@
 <?php get_header(); ?>
 
 <?php get_template_part( 'content/archive-header' ); ?>
-<?php get_template_part( 'content/category-links' ); ?>
 
 	<div id="loop-container" class="loop-container">
 		<?php

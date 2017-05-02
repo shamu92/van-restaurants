@@ -18,6 +18,8 @@
 				<div id="title-info" class="title-info">
 					<?php get_template_part( 'logo' ) ?>
 				</div>
+				<div class="search">
+				</div>
 				<?php get_template_part( 'menu', 'primary' ); ?>
 			</div>
 		</header>
