@@ -2,7 +2,6 @@
 /**
  * The template for displaying all pages.
  * Template Name: categories
- * @package van-restaurants
  */
  ?>
 <?php get_header(); ?>
