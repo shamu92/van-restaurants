@@ -1955,12 +1955,6 @@ li.pingback:first-child {
     opacity: 1;
     padding: 0.5em 0;
   }
-  .menu-secondary-items:before {
-    content: '//';
-    margin-right: 16px;
-    color: white;
-    opacity: 0.4;
-  }
   .menu-secondary-items li,
   .menu-secondary-items a {
     display: inline-block;
